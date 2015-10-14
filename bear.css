@@ -3,58 +3,51 @@ body {
   padding: 0;
   margin: 0;
   background-image: url("assignments-master/peralta/assets/bg.jpg");
-  background: repeat: no-repeat;
-
-}
-
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 .wrapper {
   width: 60%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
+
 /**************************
 HEADER
 ***************************/
 header {
   width: auto;
-  height: 100px;
-
-}
+  height: 100px; }
 
 header ul {
   list-style-type: none;
   padding: 0;
-  text-align: right;
-}
+  text-align: right; }
+
 h1 {
   margin-right: 10px;
-  font-size: 15px;
+  font-size: 15px; }
 
-}
-
-#cheating-dot{
+#cheating-dot {
   font-size: 30px;
   margin-right: 10px;
   color: white;
-  font-size: 20px;
-
-}
+  font-size: 20px; }
 
 .social li {
   display: inline-block;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 nav ul {
   padding: 0;
   margin: 0 auto;
-}
+  text-align: center; }
 
-nav li{
+nav li {
   display: inline-block;
   background-color: red;
   color: white;
-}
+  font-size: 1em;
+  margin: 0 15px;
+  padding: 1.5%; }
 
 /**************************
 BIGPIC
@@ -62,67 +55,59 @@ BIGPIC
 .camera {
   height: 320px;
   width: 99%;
-  margin-top: 15%;
+  margin-top: 5%;
   border: 4px solid white;
   background: url("assignments-master/peralta/assets/top-image.png");
   background-size: 100%;
-  background-position: center;
-}
+  background-position: center; }
 
 .three-dots {
-  text-align: center;
-
-}
-
+  text-align: center; }
 
 /**************************
 SECTIONS
 ***************************/
 .container-2 {
   width: 100%;
-}
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+span {
+  font-size: .5; }
 
 .container-2 section {
   display: inline-block;
-  width: 32.96%;
+  width: 30%;
   background-color: white;
-}
+  font-size: .7em;
+  vertical-align: text-top; }
 
-.container-3 {
-  width: 100%;
-  display: inline-block;
-}
-
-.container-3 {
-  width:100%;
-}
+.container-2 h2 {
+  font-size: 1.5em; }
 
 .box1 {
   width: 69%;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .lance img {
-  width: 49%;
-  display: inline-block;
-}
+  width: 400px;
+  height: 300px;
+  display: inline; }
 
-.rodney {
-  width: 49%;
-  display: inline-block;
-}
-
-
+.rodney img {
+  width: 400px;
+  height: 300px;
+  display: inline; }
 
 .box2 {
-  width: 29%
-}
+  width: 29%; }
 
 .container-4 {
   background-color: white;
-}
+  margin-top: 5%; }
 
-.container-4 img{
-  width: 9%;
-  margin: 0 auto;
-}
+.container-4 img {
+  background-color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 8px; }
